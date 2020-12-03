@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+target 'RSA_public_decrypt' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RSA_public_decrypt
+pod 'OpenSSL-Universal', '~> 1.0.1.20'
+
+  target 'RSA_public_decryptTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RSA_public_decryptUITests' do
+    # Pods for testing
+  end
+
+end

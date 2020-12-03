@@ -1,0 +1,6 @@
+framework module Pods_RSA_public_decrypt {
+  umbrella header "Pods-RSA_public_decrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}

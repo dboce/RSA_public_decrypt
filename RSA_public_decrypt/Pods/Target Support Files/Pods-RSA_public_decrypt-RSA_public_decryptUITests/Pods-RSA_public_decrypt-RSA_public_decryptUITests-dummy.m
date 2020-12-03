@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RSA_public_decrypt_RSA_public_decryptUITests : NSObject
+@end
+@implementation PodsDummy_Pods_RSA_public_decrypt_RSA_public_decryptUITests
+@end

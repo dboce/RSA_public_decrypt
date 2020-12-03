@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5CB89D257893F500DD37B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB89C257893F500DD37B5 /* AppDelegate.m */; };
+		2B5CB8A0257893F500DD37B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB89F257893F500DD37B5 /* SceneDelegate.m */; };
+		2B5CB8A3257893F500DD37B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB8A2257893F500DD37B5 /* ViewController.m */; };
+		2B5CB8A6257893F500DD37B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5CB8A4257893F500DD37B5 /* Main.storyboard */; };
+		2B5CB8A8257893F800DD37B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5CB8A7257893F800DD37B5 /* Assets.xcassets */; };
+		2B5CB8AB257893F800DD37B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5CB8A9257893F800DD37B5 /* LaunchScreen.storyboard */; };
+		2B5CB8AE257893F800DD37B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB8AD257893F800DD37B5 /* main.m */; };
+		2B5CB8B8257893F800DD37B5 /* RSA_public_decryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB8B7257893F800DD37B5 /* RSA_public_decryptTests.m */; };
+		2B5CB8C3257893F800DD37B5 /* RSA_public_decryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB8C2257893F800DD37B5 /* RSA_public_decryptUITests.m */; };
+		2B5CB8E3257895DE00DD37B5 /* RSAHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB8E1257895DE00DD37B5 /* RSAHandler.m */; };
+		2B5CB8E9257895F200DD37B5 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5CB8E8257895F200DD37B5 /* RSA.m */; };
+		4CA259FF7344318D20B15316 /* Pods_RSA_public_decrypt_RSA_public_decryptUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DBB73CEA6F7AD6E88481B0 /* Pods_RSA_public_decrypt_RSA_public_decryptUITests.framework */; };
+		7807F30AFC50656FBCA88916 /* Pods_RSA_public_decryptTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8686306DF93099FC9C567E40 /* Pods_RSA_public_decryptTests.framework */; };
+		E89F2603959C68283EF2D652 /* Pods_RSA_public_decrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF005B4AA492669DCB9554E /* Pods_RSA_public_decrypt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5CB8B4257893F800DD37B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5CB890257893F500DD37B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5CB897257893F500DD37B5;
+			remoteInfo = RSA_public_decrypt;
+		};
+		2B5CB8BF257893F800DD37B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5CB890257893F500DD37B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5CB897257893F500DD37B5;
+			remoteInfo = RSA_public_decrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020F6C075276622FA08A9F1F /* Pods-RSA_public_decrypt-RSA_public_decryptUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA_public_decrypt-RSA_public_decryptUITests.debug.xcconfig"; path = "Target Support Files/Pods-RSA_public_decrypt-RSA_public_decryptUITests/Pods-RSA_public_decrypt-RSA_public_decryptUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B5CB898257893F500DD37B5 /* RSA_public_decrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSA_public_decrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5CB89B257893F500DD37B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B5CB89C257893F500DD37B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B5CB89E257893F500DD37B5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2B5CB89F257893F500DD37B5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2B5CB8A1257893F500DD37B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B5CB8A2257893F500DD37B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B5CB8A5257893F500DD37B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B5CB8A7257893F800DD37B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B5CB8AA257893F800DD37B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B5CB8AC257893F800DD37B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5CB8AD257893F800DD37B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B5CB8B3257893F800DD37B5 /* RSA_public_decryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSA_public_decryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5CB8B7257893F800DD37B5 /* RSA_public_decryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSA_public_decryptTests.m; sourceTree = "<group>"; };
+		2B5CB8B9257893F800DD37B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5CB8BE257893F800DD37B5 /* RSA_public_decryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSA_public_decryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5CB8C2257893F800DD37B5 /* RSA_public_decryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSA_public_decryptUITests.m; sourceTree = "<group>"; };
+		2B5CB8C4257893F800DD37B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5CB8E1257895DE00DD37B5 /* RSAHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAHandler.m; sourceTree = "<group>"; };
+		2B5CB8E2257895DE00DD37B5 /* RSAHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAHandler.h; sourceTree = "<group>"; };
+		2B5CB8E7257895F100DD37B5 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		2B5CB8E8257895F200DD37B5 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		30D6FE6DFE2E46ABC810F7DA /* Pods-RSA_public_decrypt-RSA_public_decryptUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA_public_decrypt-RSA_public_decryptUITests.release.xcconfig"; path = "Target Support Files/Pods-RSA_public_decrypt-RSA_public_decryptUITests/Pods-RSA_public_decrypt-RSA_public_decryptUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37DBB73CEA6F7AD6E88481B0 /* Pods_RSA_public_decrypt_RSA_public_decryptUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSA_public_decrypt_RSA_public_decryptUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F711350A0F5BB2613DF816 /* Pods-RSA_public_decrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA_public_decrypt.debug.xcconfig"; path = "Target Support Files/Pods-RSA_public_decrypt/Pods-RSA_public_decrypt.debug.xcconfig"; sourceTree = "<group>"; };
+		8686306DF93099FC9C567E40 /* Pods_RSA_public_decryptTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSA_public_decryptTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A072CBC618FACA9F65BDD5B8 /* Pods-RSA_public_decryptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA_public_decryptTests.release.xcconfig"; path = "Target Support Files/Pods-RSA_public_decryptTests/Pods-RSA_public_decryptTests.release.xcconfig"; sourceTree = "<group>"; };
+		D570F4A6C272BF0ABBC5C63E /* Pods-RSA_public_decryptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA_public_decryptTests.debug.xcconfig"; path = "Target Support Files/Pods-RSA_public_decryptTests/Pods-RSA_public_decryptTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEF005B4AA492669DCB9554E /* Pods_RSA_public_decrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSA_public_decrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B92246537F91410B3DDF2C /* Pods-RSA_public_decrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSA_public_decrypt.release.xcconfig"; path = "Target Support Files/Pods-RSA_public_decrypt/Pods-RSA_public_decrypt.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5CB895257893F500DD37B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89F2603959C68283EF2D652 /* Pods_RSA_public_decrypt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5CB8B0257893F800DD37B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7807F30AFC50656FBCA88916 /* Pods_RSA_public_decryptTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5CB8BB257893F800DD37B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA259FF7344318D20B15316 /* Pods_RSA_public_decrypt_RSA_public_decryptUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5CB88F257893F500DD37B5 = {
+			isa = PBXGroup;
+			children = (
+				2B5CB89A257893F500DD37B5 /* RSA_public_decrypt */,
+				2B5CB8B6257893F800DD37B5 /* RSA_public_decryptTests */,
+				2B5CB8C1257893F800DD37B5 /* RSA_public_decryptUITests */,
+				2B5CB899257893F500DD37B5 /* Products */,
+				EFD2A792EAF63545BF41C27F /* Pods */,
+				5783E69C575F8AC12CE07328 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5CB899257893F500DD37B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5CB898257893F500DD37B5 /* RSA_public_decrypt.app */,
+				2B5CB8B3257893F800DD37B5 /* RSA_public_decryptTests.xctest */,
+				2B5CB8BE257893F800DD37B5 /* RSA_public_decryptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5CB89A257893F500DD37B5 /* RSA_public_decrypt */ = {
+			isa = PBXGroup;
+			children = (
+				2B5CB89B257893F500DD37B5 /* AppDelegate.h */,
+				2B5CB89C257893F500DD37B5 /* AppDelegate.m */,
+				2B5CB89E257893F500DD37B5 /* SceneDelegate.h */,
+				2B5CB89F257893F500DD37B5 /* SceneDelegate.m */,
+				2B5CB8A1257893F500DD37B5 /* ViewController.h */,
+				2B5CB8A2257893F500DD37B5 /* ViewController.m */,
+				2B5CB8E7257895F100DD37B5 /* RSA.h */,
+				2B5CB8E8257895F200DD37B5 /* RSA.m */,
+				2B5CB8E0257895DE00DD37B5 /* RSAHandler */,
+				2B5CB8A4257893F500DD37B5 /* Main.storyboard */,
+				2B5CB8A7257893F800DD37B5 /* Assets.xcassets */,
+				2B5CB8A9257893F800DD37B5 /* LaunchScreen.storyboard */,
+				2B5CB8AC257893F800DD37B5 /* Info.plist */,
+				2B5CB8AD257893F800DD37B5 /* main.m */,
+			);
+			path = RSA_public_decrypt;
+			sourceTree = "<group>";
+		};
+		2B5CB8B6257893F800DD37B5 /* RSA_public_decryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5CB8B7257893F800DD37B5 /* RSA_public_decryptTests.m */,
+				2B5CB8B9257893F800DD37B5 /* Info.plist */,
+			);
+			path = RSA_public_decryptTests;
+			sourceTree = "<group>";
+		};
+		2B5CB8C1257893F800DD37B5 /* RSA_public_decryptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5CB8C2257893F800DD37B5 /* RSA_public_decryptUITests.m */,
+				2B5CB8C4257893F800DD37B5 /* Info.plist */,
+			);
+			path = RSA_public_decryptUITests;
+			sourceTree = "<group>";
+		};
+		2B5CB8E0257895DE00DD37B5 /* RSAHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2B5CB8E1257895DE00DD37B5 /* RSAHandler.m */,
+				2B5CB8E2257895DE00DD37B5 /* RSAHandler.h */,
+			);
+			path = RSAHandler;
+			sourceTree = "<group>";
+		};
+		5783E69C575F8AC12CE07328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF005B4AA492669DCB9554E /* Pods_RSA_public_decrypt.framework */,
+				37DBB73CEA6F7AD6E88481B0 /* Pods_RSA_public_decrypt_RSA_public_decryptUITests.framework */,
+				8686306DF93099FC9C567E40 /* Pods_RSA_public_decryptTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD2A792EAF63545BF41C27F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81F711350A0F5BB2613DF816 /* Pods-RSA_public_decrypt.debug.xcconfig */,
+				F7B92246537F91410B3DDF2C /* Pods-RSA_public_decrypt.release.xcconfig */,
+				020F6C075276622FA08A9F1F /* Pods-RSA_public_decrypt-RSA_public_decryptUITests.debug.xcconfig */,
+				30D6FE6DFE2E46ABC810F7DA /* Pods-RSA_public_decrypt-RSA_public_decryptUITests.release.xcconfig */,
+				D570F4A6C272BF0ABBC5C63E /* Pods-RSA_public_decryptTests.debug.xcconfig */,
+				A072CBC618FACA9F65BDD5B8 /* Pods-RSA_public_decryptTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5CB897257893F500DD37B5 /* RSA_public_decrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5CB8C7257893F800DD37B5 /* Build configuration list for PBXNativeTarget "RSA_public_decrypt" */;
+			buildPhases = (
+				F9DEE4483FECAFB07DCF561A /* [CP] Check Pods Manifest.lock */,
+				2B5CB894257893F500DD37B5 /* Sources */,
+				2B5CB895257893F500DD37B5 /* Frameworks */,
+				2B5CB896257893F500DD37B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSA_public_decrypt;
+			productName = RSA_public_decrypt;
+			productReference = 2B5CB898257893F500DD37B5 /* RSA_public_decrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B5CB8B2257893F800DD37B5 /* RSA_public_decryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5CB8CA257893F800DD37B5 /* Build configuration list for PBXNativeTarget "RSA_public_decryptTests" */;
+			buildPhases = (
+				DC1E12DFF81665ECEB797047 /* [CP] Check Pods Manifest.lock */,
+				2B5CB8AF257893F800DD37B5 /* Sources */,
+				2B5CB8B0257893F800DD37B5 /* Frameworks */,
+				2B5CB8B1257893F800DD37B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5CB8B5257893F800DD37B5 /* PBXTargetDependency */,
+			);
+			name = RSA_public_decryptTests;
+			productName = RSA_public_decryptTests;
+			productReference = 2B5CB8B3257893F800DD37B5 /* RSA_public_decryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B5CB8BD257893F800DD37B5 /* RSA_public_decryptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5CB8CD257893F800DD37B5 /* Build configuration list for PBXNativeTarget "RSA_public_decryptUITests" */;
+			buildPhases = (
+				5D68F6422C12D2C3AEF50422 /* [CP] Check Pods Manifest.lock */,
+				2B5CB8BA257893F800DD37B5 /* Sources */,
+				2B5CB8BB257893F800DD37B5 /* Frameworks */,
+				2B5CB8BC257893F800DD37B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5CB8C0257893F800DD37B5 /* PBXTargetDependency */,
+			);
+			name = RSA_public_decryptUITests;
+			productName = RSA_public_decryptUITests;
+			productReference = 2B5CB8BE257893F800DD37B5 /* RSA_public_decryptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5CB890257893F500DD37B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2B5CB897257893F500DD37B5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2B5CB8B2257893F800DD37B5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2B5CB897257893F500DD37B5;
+					};
+					2B5CB8BD257893F800DD37B5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2B5CB897257893F500DD37B5;
+					};
+				};
+			};
+			buildConfigurationList = 2B5CB893257893F500DD37B5 /* Build configuration list for PBXProject "RSA_public_decrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5CB88F257893F500DD37B5;
+			productRefGroup = 2B5CB899257893F500DD37B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5CB897257893F500DD37B5 /* RSA_public_decrypt */,
+				2B5CB8B2257893F800DD37B5 /* RSA_public_decryptTests */,
+				2B5CB8BD257893F800DD37B5 /* RSA_public_decryptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5CB896257893F500DD37B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5CB8AB257893F800DD37B5 /* LaunchScreen.storyboard in Resources */,
+				2B5CB8A8257893F800DD37B5 /* Assets.xcassets in Resources */,
+				2B5CB8A6257893F500DD37B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5CB8B1257893F800DD37B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5CB8BC257893F800DD37B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D68F6422C12D2C3AEF50422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSA_public_decrypt-RSA_public_decryptUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1E12DFF81665ECEB797047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSA_public_decryptTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DEE4483FECAFB07DCF561A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSA_public_decrypt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5CB894257893F500DD37B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5CB8E9257895F200DD37B5 /* RSA.m in Sources */,
+				2B5CB8E3257895DE00DD37B5 /* RSAHandler.m in Sources */,
+				2B5CB8A3257893F500DD37B5 /* ViewController.m in Sources */,
+				2B5CB89D257893F500DD37B5 /* AppDelegate.m in Sources */,
+				2B5CB8AE257893F800DD37B5 /* main.m in Sources */,
+				2B5CB8A0257893F500DD37B5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5CB8AF257893F800DD37B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5CB8B8257893F800DD37B5 /* RSA_public_decryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5CB8BA257893F800DD37B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5CB8C3257893F800DD37B5 /* RSA_public_decryptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5CB8B5257893F800DD37B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5CB897257893F500DD37B5 /* RSA_public_decrypt */;
+			targetProxy = 2B5CB8B4257893F800DD37B5 /* PBXContainerItemProxy */;
+		};
+		2B5CB8C0257893F800DD37B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5CB897257893F500DD37B5 /* RSA_public_decrypt */;
+			targetProxy = 2B5CB8BF257893F800DD37B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B5CB8A4257893F500DD37B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5CB8A5257893F500DD37B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B5CB8A9257893F800DD37B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5CB8AA257893F800DD37B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5CB8C5257893F800DD37B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B5CB8C6257893F800DD37B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5CB8C8257893F800DD37B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F711350A0F5BB2613DF816 /* Pods-RSA_public_decrypt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 258EWNLW3R;
+				INFOPLIST_FILE = RSA_public_decrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbc.RSA-public-decrypt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5CB8C9257893F800DD37B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B92246537F91410B3DDF2C /* Pods-RSA_public_decrypt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 258EWNLW3R;
+				INFOPLIST_FILE = RSA_public_decrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbc.RSA-public-decrypt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B5CB8CB257893F800DD37B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D570F4A6C272BF0ABBC5C63E /* Pods-RSA_public_decryptTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 258EWNLW3R;
+				INFOPLIST_FILE = RSA_public_decryptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbc.RSA-public-decryptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA_public_decrypt.app/RSA_public_decrypt";
+			};
+			name = Debug;
+		};
+		2B5CB8CC257893F800DD37B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A072CBC618FACA9F65BDD5B8 /* Pods-RSA_public_decryptTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 258EWNLW3R;
+				INFOPLIST_FILE = RSA_public_decryptTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbc.RSA-public-decryptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA_public_decrypt.app/RSA_public_decrypt";
+			};
+			name = Release;
+		};
+		2B5CB8CE257893F800DD37B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020F6C075276622FA08A9F1F /* Pods-RSA_public_decrypt-RSA_public_decryptUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 258EWNLW3R;
+				INFOPLIST_FILE = RSA_public_decryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbc.RSA-public-decryptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSA_public_decrypt;
+			};
+			name = Debug;
+		};
+		2B5CB8CF257893F800DD37B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D6FE6DFE2E46ABC810F7DA /* Pods-RSA_public_decrypt-RSA_public_decryptUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 258EWNLW3R;
+				INFOPLIST_FILE = RSA_public_decryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dbc.RSA-public-decryptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSA_public_decrypt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5CB893257893F500DD37B5 /* Build configuration list for PBXProject "RSA_public_decrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5CB8C5257893F800DD37B5 /* Debug */,
+				2B5CB8C6257893F800DD37B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5CB8C7257893F800DD37B5 /* Build configuration list for PBXNativeTarget "RSA_public_decrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5CB8C8257893F800DD37B5 /* Debug */,
+				2B5CB8C9257893F800DD37B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5CB8CA257893F800DD37B5 /* Build configuration list for PBXNativeTarget "RSA_public_decryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5CB8CB257893F800DD37B5 /* Debug */,
+				2B5CB8CC257893F800DD37B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5CB8CD257893F800DD37B5 /* Build configuration list for PBXNativeTarget "RSA_public_decryptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5CB8CE257893F800DD37B5 /* Debug */,
+				2B5CB8CF257893F800DD37B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5CB890257893F500DD37B5 /* Project object */;
+}
